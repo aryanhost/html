@@ -1,0 +1,26 @@
+:root {
+    --primary: #FFC636;
+    --secondary: #0A0B5B;
+    }
+    /* reset */
+
+    body{
+        font-size: 22px;
+    }
+
+    P{
+        font-size: 2em;
+    }
+    body,p,a,ul,li,div{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+    li   {
+    list-style-type: none;
+    }
+    /* base styles */
+    body {
+    background: var (--secondary);
+    overflow-x: hidden;
+    }
