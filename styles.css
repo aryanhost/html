@@ -21,6 +21,7 @@
     }
     /* base styles */
     body {
+        
     background: var (--secondary);
     overflow-x: hidden;
     }
