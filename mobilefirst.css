@@ -1,0 +1,21 @@
+/*  mobile-first */
+
+
+.mobile-first {
+    background-color:blanchedalmond;
+    font-size: 1em;    
+  }
+/* 
+ma aval check mikonim ke 
+Aya andazeye Display 600 va zire 600 bashe
+
+
+*/
+@media (min-width: 600px) {
+   
+  
+    .mobile-first {
+        background-color:coral;
+      width: 30%;
+    }
+  }

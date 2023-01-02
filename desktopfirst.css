@@ -1,0 +1,28 @@
+/*  desktop-first */
+
+
+  /* Normal baraye desktop ast */
+
+  .desktopfirst {
+    background-color: gray;
+    width: 30%;
+    font-size: 1em;
+  }
+  
+
+  /*kamtar az 600 yani 600 px */
+  @media (max-width: 600px) {
+    .desktopfirst{
+        background-color: cadetblue;
+        width: 100%;
+        font-size: 1.3em;
+    }
+  }
+
+  /*
+Haminjuri normal css mizanim 
+ta zamani ke moshakhas konim 
+tamame display hayi ke screen size anha Max 
+yani dar bishtarin halat 600 mishavand
+masalan 240 px ya 599 PX
+*/
