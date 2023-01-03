@@ -1,6 +1,7 @@
 :root {
     --primary: #FFC636;
-    --secondary: #0A0B5B;
+    --abi: #4275C1;
+
     }
     /* reset */
 
@@ -22,6 +23,5 @@
     /* base styles */
     body {
         
-    background: var (--secondary);
     overflow-x: hidden;
     }
