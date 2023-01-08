@@ -35,6 +35,10 @@
 }
 .searchicon {
     /* display: none; */
+    /* I think, opacity and relatives position are not a good idea */
+    opacity: 0.4;
+    left: -36px;
+    position: relative;
 }
 
 
