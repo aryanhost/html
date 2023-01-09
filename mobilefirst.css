@@ -25,7 +25,7 @@ Aya andazeye Display 600 va bishtar az 600 bashe
 
 @media (min-width: 768px) {
    
-  
+  .menu{display: none;}
 
   }
 

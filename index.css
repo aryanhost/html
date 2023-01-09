@@ -1,6 +1,60 @@
+/*Header and Menu*/
+.headercontainer img{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+.fristheader{
+    /* display: flex; justify-content: center; flex-direction: row; */
+}
+.headercontainer {
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px; 
+    background-color: var(--abi);
+}
+.headercontainer > div {
+    padding: 0 5px;
+}
+.divsearch {
+   /* flex-basis: 300px; */
+   /* flex-grow: 1; */
+    /* order: 2; */
+}
+.searchbox {
+    background-color: var(--tusi);
+    margin: 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none; 
+    width: 50vw;
+    
+}
+.searchicon {
+    /* display: none; */
+    /* I think, opacity and relatives position are not a good idea */
+    opacity: 0.4;
+    left: -36px;
+    position: relative;
+}
+
+
+.tinylogo {
+    margin-right: auto;
+}
+.favorite{
+    margin-left:auto;
+}
+.menu{
+    /* margin-left: auto; */
+}
+
+/*Body */
 .content {
     display: flex;
-    width: 100vw;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -9,7 +63,7 @@
 
 .content input {
     width: 220px;
-    background-color: #D9D9D9;
+    background-color: var(--tusi);
     margin: 5px;
     padding: 15px 10px;
     border-radius: 5px;
@@ -26,48 +80,13 @@
     
 
 }
-.headercontainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 107px; 
-    background-color: var(--abi);
-}
-.headercontainer > div {
-    padding: 0 5px;
-}
-.divsearch {
-    width: 90%;
-    order: 2;
-}
-.searchbox {
-    width: 80%;
-    background-color: #D9D9D9;
-    margin: 5px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: none; 
-    
-}
-.searchicon {
-    order: 5;
-}
-.searchicon img {
-    vertical-align: middle;
-}
-
-.tinylogo {
-    /* margin-right: auto; */
-}
 .content a {
     font-size: 0.7em;
-    color: var(--abi);
+    color:var(--tusi_linkHa);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
-    background-color: rgb(207, 207, 207);
+    background-color: var(--tusi);
     bottom: 0;
     overflow: hidden;
     position: fixed;
