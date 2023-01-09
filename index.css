@@ -20,9 +20,7 @@
     padding: 0 5px;
 }
 .divsearch {
-   /* flex-basis: 300px; */
-   /* flex-grow: 1; */
-    /* order: 2; */
+    margin-left: 36px;
 }
 .searchbox {
     background-color: var(--tusi);
