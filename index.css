@@ -87,15 +87,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
-    background-color: var(--tusi);
+    background-color: ;
     bottom: 0;
     overflow: hidden;
     position: fixed;
-    width: 100%;
-    padding: 5px;
+    width: 100vw;
     text-align: center;
     font-size: 0.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+}
+.BiClass {
+    padding: 5px;
+    color: antiquewhite;
 
 }
