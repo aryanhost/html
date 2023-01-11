@@ -4,9 +4,6 @@
     width: 25px;
     height: 25px;
 }
-.fristheader{
-    /* display: flex; justify-content: center; flex-direction: row; */
-}
 .headercontainer {
     width: 100vw;
     display: flex;
@@ -49,10 +46,6 @@
 .favorite{
     margin-left:auto;
 }
-.menu{
-    /* margin-left: auto; */
-}
-
 /*Body */
 .content {
     display: flex;
