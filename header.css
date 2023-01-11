@@ -1,0 +1,72 @@
+/*Header and Menu*/
+.headercontainer img{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+.headercontainer {
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px; 
+    background-color: var(--abi);
+}
+.headercontainer > div {
+    padding: 0 5px;
+}
+.divsearch {
+   /* flex-basis: 300px; */
+   /* flex-grow: 1; */
+   /* order: 2; */
+    margin-left: 36px;
+}
+.searchbox {
+    background-color: var(--tusi);
+    margin: 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none; 
+    width: 50vw;
+    
+}
+.searchicon {
+    /* display: none; */
+    /* I think, opacity and relatives position are not a good idea */
+    opacity: 0.4;
+    left: -36px;
+    position: relative;
+}
+
+
+.tinylogo {
+    margin-right: auto;
+}
+.favorite{
+    margin-left:auto;
+}
+.suggestion {
+    background-color: #1958a0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.breadcrumb {
+    background-color: #e4edf8;
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.suggestion-item {
+    background-color: #02070d4d;
+    color: #ccc ;
+    padding: 5px 20px 5px 20px;
+    font-size: 0.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
