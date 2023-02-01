@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./includer.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mobilefirst.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+<div includer-html="header.html"></div> 
 <style>
     .products-container {
         display: flex;
@@ -5,17 +20,20 @@
         justify-content: space-evenly;
     }
     .product-item {
-        border: 1px solid #ccc;
-        border-radius: 22px;
-        padding: 50px;
-        margin-top: 22px;
     }
 </style>
 <div class="products-container">
-    <div class="product-item">Produkht Item</div>
+    <div class="product-item"><img src="https://via.placeholder.com/130x110.png/09f/fff" alt=""></div>
     <div class="product-item">Produkht Item</div>
     <div class="product-item">Produkht Item</div>
     <div class="product-item">Produkht Item</div>
     <div class="product-item">Produkht Item</div>
     <div class="product-item">Produkht Item</div>
 </div>
+
+<div includer-html="footer.html"></div> 
+<script>
+    includeHTML();
+</script>
+</body>
+</html>

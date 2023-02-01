@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./includer.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mobilefirst.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+</head>
+<body>
+<div includer-html="header.html"></div> 
+<style>
+    .pagetitle{
+        padding: 5px;
+    }
+    .category-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    .category-item {
+        background-color: rgb(241, 241, 241);
+        margin-bottom: 20px;
+        width: 33%;
+    }
+    .cat-icon{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .cat-icon img {
+        width: 50%;
+    }
+    .cat-text{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+</style>
+<div class="pagetitle">Category Select</div>
+<div class="category-container">
+
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category Item</div>
+    </div>
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category 2</div>
+    </div>
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category Item</div>
+    </div>
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category Item</div>
+    </div>
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category Item</div>
+    </div>
+    <div class="category-item">
+        <div class="cat-icon"><img src="./theme/images/circle.svg" alt=""></div>
+        <div class="cat-text">Category Item</div>
+    </div>
+</div>
+
+<div includer-html="footer.html"></div> 
+<script>
+    includeHTML();
+</script>
+</body>
+</html>

@@ -13,20 +13,21 @@ Aya andazeye Display 600 va bishtar az 600 bashe
 */
 @media (min-width: 360px) {
    
-  
+
 
   }
 
 @media (min-width: 480px) {
    
-  
 
   }
 
 @media (min-width: 768px) {
-   
-  .menu{display: none;}
-
+   /* Desktop Screen */
+  .menu-mobile{display: none;}
+  .userimg {
+    padding-right: 25px;
+}
   }
 
 @media (min-width: 960px) {
